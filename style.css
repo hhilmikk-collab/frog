@@ -1,0 +1,35 @@
+* {
+    margin: none;
+}
+
+body {
+    background-color: rgb(20, 13, 27);
+}
+
+.texts {
+    margin: none;
+    padding: none;
+    color: aliceblue;
+    margin: 2%;
+}
+
+.text {
+    display: flex;
+  justify-content: center;
+  font-family: 'Space Grotesk';
+}
+
+#firog {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#img {
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
