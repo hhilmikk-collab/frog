@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(20, 13, 27);
+    background-color: coral;
 }
 
 
@@ -46,3 +46,4 @@ html, body {
 img, div {
   max-width: 100%;
 }
+
