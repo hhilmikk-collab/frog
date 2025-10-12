@@ -7,10 +7,12 @@ window.addEventListener("load", function(){
     f2.style.opacity = "0";
 })
 
-frog.addEventListener("contextmenu", e => e.preventDefault());
-frog.addEventListener("dragstart", e => e.preventDefault());
-frog.addEventListener("touchstart", e => e.stopPropagation());
+f.addEventListener("contextmenu", e => e.preventDefault());
+f.addEventListener("dragstart", e => e.preventDefault());
 
+f.addEventListener("pointerdown", Hide);
+f.addEventListener("pointerup", Show);
+f.addEventListener("pointercancel", Show);
 
 function Hide() {
     //console.log("frog gone :o");
