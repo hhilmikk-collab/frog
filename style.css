@@ -34,8 +34,13 @@ html, body {
   position: relative;
 }
 
-#img {
+.img {
     animation: float 2s ease-in-out infinite;
+    position: absolute;
+
+    -webkit-user-drag: none;
+    user-select: none;
+    pointer-events: auto;
 }
 
 @keyframes float {
